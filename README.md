@@ -39,3 +39,10 @@ tried restarting apache, no change, same error.
 Tried redoing a couple steps and tried to account for human error. Turns out i am stupid and typed https instead of http. problem solved.
 
 <img width="1611" height="1487" alt="image" src="https://github.com/user-attachments/assets/af326677-9569-4588-9b2e-62d2da4bd2b9" />
+
+## B Nmapped
+
+First i verified nmap was up to date
+
+<img width="2380" height="446" alt="image" src="https://github.com/user-attachments/assets/2eba3698-b005-4c73-9a14-dfffe650195c" />
+
