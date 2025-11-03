@@ -25,3 +25,17 @@ Then i ran ```$ sudo apt install apache2``` to install apache 2
 Then we start and enable apache2
 
 <img width="949" height="86" alt="image" src="https://github.com/user-attachments/assets/e592533b-5611-4224-bfd7-6ecf5a853b7a" />
+
+Afther this i checked it's status and got an error. I decided to try it anyways and as you might expect the default webpage didn't load.
+
+<img width="2444" height="1069" alt="image" src="https://github.com/user-attachments/assets/2e272202-a5bf-4672-86cb-1ce73f1e885c" />
+
+Afther some googling this could be due to it being blocked by the firewall. so i tried allowing port 80 over tcp
+
+<img width="801" height="214" alt="image" src="https://github.com/user-attachments/assets/075bd9d0-bdfa-4e45-8e80-f324cd408ddb" />
+
+tried restarting apache, no change, same error.
+
+Tried redoing a couple steps and tried to account for human error. Turns out i am stupid and typed https instead of http. problem solved.
+
+<img width="1611" height="1487" alt="image" src="https://github.com/user-attachments/assets/af326677-9569-4588-9b2e-62d2da4bd2b9" />
