@@ -46,3 +46,40 @@ First i verified nmap was up to date
 
 <img width="2380" height="446" alt="image" src="https://github.com/user-attachments/assets/2eba3698-b005-4c73-9a14-dfffe650195c" />
 
+next i turned of my internet connection on the host device as it is easyer an safer.
+
+After i did this i scanned localhost port 80.
+
+<img width="2028" height="745" alt="image" src="https://github.com/user-attachments/assets/00886fc4-daa7-4056-b975-4d5c329add2d" />
+
+The scan shows that the Apache HTTP server is upp and running.
+
+## C Scripts
+
+As can be seen in exersice B we have HTTP-Server-Header and HTTP-Title for the apache server.
+
+## D
+
+first i checked the recent logs. 
+
+<img width="2463" height="1400" alt="image" src="https://github.com/user-attachments/assets/70d9d178-4d00-47d2-a679-77b4310991e9" />
+
+Then i narrowed the search a bit to just nmap
+
+<img width="2458" height="1418" alt="image" src="https://github.com/user-attachments/assets/bdaed100-485f-4858-a6c8-574da434bd4f" />
+
+To explain the code above, i used grep to search trough the loggs for only entries containing the string "nmap" and the -i made the search case insensitive.
+
+## E
+
+As we can see Nmap absolutely spamms port 80 with requests and packets, then it pings the device to see if it is online.
+
+<img width="2416" height="1248" alt="image" src="https://github.com/user-attachments/assets/8d2b0f5f-347b-4de9-992e-f067ca32ee9b" />
+
+## F
+
+to install ngrep you simply run ```$ sudo apt install ngrep```. if needed you can run ```$ sudo apt-get update``` first.
+
+Below you can see the command for only seeing trafic containing nmap
+
+<img width="1930" height="1262" alt="image" src="https://github.com/user-attachments/assets/514444ab-5f35-440d-9af6-7247e9a1a89b" />
