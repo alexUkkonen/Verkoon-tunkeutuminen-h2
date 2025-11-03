@@ -83,3 +83,35 @@ to install ngrep you simply run ```$ sudo apt install ngrep```. if needed you ca
 Below you can see the command for only seeing trafic containing nmap
 
 <img width="1930" height="1262" alt="image" src="https://github.com/user-attachments/assets/514444ab-5f35-440d-9af6-7247e9a1a89b" />
+
+## G
+
+Now we change the Nmap user agent name. 
+
+<img width="2114" height="393" alt="image" src="https://github.com/user-attachments/assets/569254f7-d02f-4f43-809a-4d6b29ac6142" />
+
+we can in woreshark see that the user agent has changed.
+
+<img width="2472" height="1304" alt="image" src="https://github.com/user-attachments/assets/41771d6f-9ea2-4636-89e1-d30f8e0047e5" />
+
+<img width="538" height="197" alt="image" src="https://github.com/user-attachments/assets/6bf3da07-4b01-4f77-b31a-9cdbfaffde94" />
+
+## I
+
+In this exercise we first find the file where the text is held.
+
+<img width="2463" height="401" alt="image" src="https://github.com/user-attachments/assets/638dd60a-88c0-4a64-bb6b-1e42db90a2d7" />
+
+We learn it is held in http.lua so we sudo editt it.
+
+<img width="2096" height="747" alt="image" src="https://github.com/user-attachments/assets/5e43d4f8-6944-46d2-82d6-229e7a4252f4" />
+
+Using Cntrl + W we can search in the lua file
+
+<img width="2434" height="1482" alt="image" src="https://github.com/user-attachments/assets/a9499e1a-110b-461e-8160-f9b916727149" />
+
+Despite my best efforts i can't seem to get the logs to change what they reocrd.
+
+<img width="2414" height="1393" alt="image" src="https://github.com/user-attachments/assets/03ee5276-123e-4b4e-9c0a-c5dfe0475fa4" />
+
+I tried checking if i had multiple http.lua's but no. I also tried restarting. Online i found no valuable advise so i turned to AI. all that had me do was run i circles and afther 2 hours spent troubleshooting this i decided it was time to give up. Most of this time was sent searching and reading, unfortunately i had no luck and only "ran in circles".
